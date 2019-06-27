@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /css/*
+Disallow: /js/*
+Disallow: /img/*
+Disallow: /Fontawesome/*
+Disallow: /mail/*
+Disallow: /temp/*
