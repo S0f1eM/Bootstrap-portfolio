@@ -1679,6 +1679,7 @@ label {
     }
 
     .SpaceLight {
+        background-color: #282224;
         height: 100px;
     }
 
@@ -1800,6 +1801,7 @@ label {
 
     .SpaceLight {
         height: 100px;
+        background-color: #282224;
     }
 
     #Portfolio-Contact h3 {
@@ -1968,6 +1970,7 @@ label {
 
     .SpaceLight {
         height: 100px;
+        background-color: #282224;
     }
 
     #Portfolio-Contact h3 {
@@ -2068,7 +2071,7 @@ label {
     }
 }
 
-@media screen and (max-width:378px) {
+@media screen and (max-width:426px) {
     .AboutText,
     .devJunior {
         line-height: 150%;
