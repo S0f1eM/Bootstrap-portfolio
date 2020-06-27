@@ -3,4 +3,3 @@ Responsive Web developer portfolio I made for my personal use on 2016, refactore
 
 #HTML5 - CSS3 - Jquery - Bootstrap
 
-Demo: http://2016-portfolio.surge.sh

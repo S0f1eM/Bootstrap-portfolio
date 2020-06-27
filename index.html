@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,13 +11,9 @@
     <title>Portfolio - Web Developer</title>
     <meta name="Content-Language" content="en">
     <meta name="author" content="Sophie Marchand" />
-    <meta name="Subject" content="web developer portfolio">
-    <meta name="Copyright" content="Sophie Marchand">
-    <meta name="Category" content="portfolio">
-    <!--TWITTER & FACEBOOK-->
-    <meta property="og:url" content="">
-    <meta property="og:title" content="Web developer Porfolio">
-    <meta property="og:description" content="Web developer portfolio from Sophie M.">
+    <meta name="Subject" content="">
+    <meta name="Copyright" content="">
+    <meta name="Category" content="">
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!-- BOOTSTRAP CDN-->
@@ -24,53 +21,60 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!--BOOTSTRAP-->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- FONT AWESOME -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="https://use.fontawesome.com/130f092642.js"></script>
     <!-- CSS reset -->
     <link rel="stylesheet" href="css/reset.css">
     <!-- styles -->
-    <link rel="stylesheet" href="style.min.css" media="screen" />
-    
-
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.min.css" media="screen" />  
 </head>
 
+
 <body>
-    <main class="Portfolio">
+    <div class="Portfolio">
         <!-- HEADER  -->
         <header>
             <nav id="contact-nav" class="hidden-xs">
                 <ul class="clearfix">
-                    <li><a href="https://twitter.com/S0f1eM?lang=fr" class="twitter-nav" target="_blank"><span class="fa fa-twitter fa-2x" aria-hidden="true"></span></a></li>
-                    <li><a href="https://fr.linkedin.com/in/sophie-marchand-00a57b131" class="linkedin-nav" target="_blank"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a></li>
-                    <li><a href="mailto:adresse@mail.com" class="email-nav" target="_blank"><span class="fa fa-envelope fa-2x" aria-hidden="true"></span></a></li>
+                    <li><a href="https://twitter.com/" class="twitter-nav" target="_blank"><span class="fa fa-twitter fa-2x" aria-hidden="true"></span></a></li>
+                    <li><a href="https://fr.linkedin.com/in/" class="linkedin-nav" target="_blank"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a></li>
+                    <li><a href="mailto:youremail@mail.com" class="email-nav" target="_blank"><span class="fa fa-envelope fa-2x" aria-hidden="true"></span></a></li>
+                    <li class="form-nav"><a href="#Portfolio-Contact"><span class="fa fa-comment fa-2x" aria-hidden="true"></span></a></li>
                 </ul>
             </nav>
 
             <!-- MENU -->
-            <nav id="SmartNav" class="overlay">
+            <nav id="main-nav" class="hidden-xs hidden-sm">
+                <ul class="menu clearfix">
+                    <li class="caviar top-menu"><a href="#Portfolio-About">About</a></li>
+                    <li class="caviar top-menu"><a href="#Portfolio-Skills">Skills</a></li>
+                    <li class="caviar top-menu"><a href="#Portfolio-Project">Work</a></li>
+                </ul>
+            </nav>
+
+            <nav id="SmartNav" class="overlay hidden-md hidden-lg">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <div class="overlay-content">
-                    <p><a href="#Home" class="active">Home</a><p>
-                    <p><a href="#Portfolio-About">About</a><p>
-                    <p><a href="#Portfolio-Skills">Skills</a></p>
-                    <p><a href="#Portfolio-Project">Work</a></p>
-                    <p><a href="#Portfolio-Contact">Contact</a></p>
+                    <a href="#Home" class="active">Home</a>
+                    <a href="#Portfolio-About">About</a>
+                    <a href="#Portfolio-Skills">Skills</a>
+                    <a href="#Portfolio-Project">Work</a>
+                    <a href="#Portfolio-Contact">Contact</a>
                 </div>
             </nav>
-            <span class="MenuSmartphone col-xs-1 col-sm-2" onclick="openNav()">&#9776;</span>
+            <span class="MenuSmartphone col-xs-1 col-sm-2 hidden-md hidden-lg" onclick="openNav()">&#9776;</span>
             <!-- End MENU -->
 
             <nav class="hidden-xs">
                 <ul class="navigation">
                     <li data-menuanchor="Home" class="active home-nav"><a href="#Home"><span class="fa fa-home fa-2x" aria-hidden="true"></span></a></li>
-                    <li data-menuanchor="Portfolio-About"><a href="#Portfolio-About">About</a></li>
-                    <li data-menuanchor="Portfolio-Skills"><a href="#Portfolio-Skills">Skills</a></li>
-                    <li data-menuanchor="Portfolio-Experiences"><a href="#Portfolio-Experiences">XP</a></li>
-                    <li data-menuanchor="Portfolio-Project"><a href="#Portfolio-Project">Works</a></li>
-                    <li data-menuanchor="Portfolio-Contact" class="contact-nav"><a href="#Portfolio-Contact"><span class="fa fa-comments fa-2x" aria-hidden="true"></span></a></li>
+                    <li data-menuanchor="Portfolio-About"><a href="#Portfolio-About">1</a></li>
+                    <li data-menuanchor="Portfolio-Skills"><a href="#Portfolio-Skills">2</a></li>
+                    <li data-menuanchor="Portfolio-Experiences"><a href="#Portfolio-Experiences">3</a></li>
+                    <li data-menuanchor="Portfolio-Project"><a href="#Portfolio-Project">4</span></a></li>
+                    <li data-menuanchor="Portfolio-Contact"><a href="#Portfolio-Contact">5</span></a></li>
                 </ul>
             </nav>
 
@@ -81,7 +85,7 @@
                         <section class="cd-intro">
                             <h1 class="cd-headline rotate-1 myName">
 								<span class="cd-words-wrapper">
-									<b class="is-visible"><em>Amy March</em></b>
+									<b class="is-visible"><em>Judy Wood</em></b>
 								</span>
 							</h1>
                         </section>
@@ -126,11 +130,13 @@
                     <div class="col-xs-12 col-md-8 AboutRight">
 
                         <p class="AboutText">
-                        Hello, my name is <span class="script">Amy</span>.<p>
-                        <p class="AboutText">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mauris neque, malesuada in elit nec, imperdiet iaculis nisi. Sed sit amet lorem non nibh ultrices feugiat. </p>
-                        <p class="AboutText">
-                            Ut eget ante ullamcorper ex aliquam tempus et et ligula. Maecenas sed ante eget velit vestibulum mollis et ultricies lectus. Donec blandit non libero quis ultricies.
+                            Hello, my name is <span class="script">Judy</span>,
+                            <br/>
+                            <span class="devJunior">I am a <strong>web developer</strong>.</span> <br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mauris neque, malesuada in elit nec, imperdiet iaculis nisi. Sed sit amet lorem non nibh ultrices feugiat.  
+                            <br/>.
+                            <br/> Ut eget ante ullamcorper ex aliquam tempus et et ligula. Maecenas sed ante eget velit vestibulum mollis et ultricies lectus. Donec blandit non libero quis ultricies.
+                            <br/>Donec sed risus eget sem semper porta ut et nibh. Quisque fermentum libero a justo rutrum, vel lacinia libero sagittis. Donec sollicitudin dapibus nibh rhoncus tempus.
+                            <br/>
                         </p>
                     </div>
                 </div>
@@ -171,32 +177,22 @@
                 <div class="row">
                     <div class="Skills col-xs-12"></div>
                     <div class="OtherSkills col-md-4">
-                     <div class="OtherBlock col-md-9">
-                           <h4>Soft Skills :</h4>
-                           <h5>Team spirit</h5>
-                           <br/>
-                           <h5>Empathy</h5>
-                           <br/>
-                           <h5>Humility</h5>
-                           <br/>
-                           <h5>Agile organisation</h5>
-                           <br/>
-                           <h5>Adaptability</h5>
-                       </div> 
                     </div>
 
                     <div class="DevSkills col-md-8">
                         <div class="SkillBlock col-md-9">
                             <div class="row">
                                 <ul class="level clearfix">
-
                                     <li>
-                                        <h4>Main Notions</h4>
+                                        <h4>Beginner</h4>
+                                        <br/>|</li>
+                                    <li>
+                                        <h4>Main notions</h4>
                                         <br/>|</li>
                                     <li>
                                         <h4>Correct</h4>
                                         <br/>|</li>
-                                    <li>
+                                    <li class="hidden-xs">
                                         <h4>Good</h4>
                                         <br/>|</li>
                                 </ul>
@@ -225,7 +221,7 @@
                                 <!-- End Skill Bar -->
 
                                 <div class="skillbar clearfix" data-percent="50%">
-                                    <div class="skillbar-title"><span>PHP</span></div>
+                                    <div class="skillbar-title"><span>METEOR</span></div>
                                     <div class="skillbar-bar barOne"></div>
                                 </div>
                                 <!-- End Skill Bar -->
@@ -243,10 +239,13 @@
                                 <!-- End Skill Bar -->
 
                                 <div class="skillbar clearfix" data-percent="30%">
-                                    <div class="skillbar-title"><span>REACT</span></div>
+                                    <div class="skillbar-title"><span>PHP</span></div>
                                     <div class="skillbar-bar barTwo"></div>
                                 </div>
                                 <!-- End Skill Bar -->
+                            </div>
+                            <div class="OtherDevSkills">
+                                <h5>Frameworks: <span class="bold">Bootstrap 3</span>, <span class="bold">Materialize</span>.
                             </div>
                         </div>
                     </div>
@@ -254,8 +253,6 @@
             </div>
             <!-- fin container -->
         </section>
-
-
 
         <!-- EXPERIENCE SECTION -->
         <section class="timeline" id="Portfolio-Experiences">
@@ -345,9 +342,9 @@
                     <div class="ProjectPart col-xs-12">
                         <div class="ProjectContent col-xs-12 col-sm-4">
                             <div class="ProjectPortfolio">
-                                <img src="img/Background/wooddesk.jpg" alt="Sophie Marchand, Portfolio développeuse web" class="img-responsive" data-toggle="modal" data-target="#myModal1">
+                                <img src="img/Background/hood.jpg" alt="Sophie Marchand, Portfolio développeuse web" class="img-responsive" data-toggle="modal" data-target="#myModal1">
                                 <h4>Portfolio</h4>
-                                <p>Lorem ipsum dolor sit amet.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
 
                             <!-- Modal -->
@@ -365,19 +362,20 @@
                                             <div class="container-fluid">
                                                 <div class="row">
                                                     <div class="col-md-4">
-                                                        <img src="img/Background/wooddesk.jpg" alt="Portfolio Header" class="img-responsive">
+                                                        <img src="img/Background/hood.jpg" alt="Portfolio Header" class="img-responsive">
                                                        
                                                     </div>
 
                                                     <div class="col-md-8">
-                                                        <h5>Missions: </h5>
-                                                        <p>- Donec mauris neque, malesuada in elit nec, imperdiet iaculis nisi.</p>
+                                                        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h5>
                                                         <br/>
-                                                        <p>- Sed sit amet lorem non nibh ultrices feugiat.</p>
+                                                        <p>1. Donec mauris neque, malesuada in elit nec, imperdiet iaculis nisi.</p>
                                                         <br/>
-                                                        <p>- Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                        <p>2.  Sed sit amet lorem non nibh ultrices feugiat.</p>
                                                         <br/>
-                                                        <p>- Lorem ipsum dolor sit amet, consectetur adipiscing elit./p>
+                                                        <p>3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                        <br/>
+                                                        <p>4. Lorem ipsum dolor sit amet, consectetur adipiscing elit./p>
                                                         <br/>
                                                         
                                                     </div>
@@ -391,10 +389,10 @@
 
                         <div class="ProjectContent col-xs-12 col-sm-4">
                             <div class="ProjectPortfolio">
-                                <img src="img/Background/workspace.jpg" alt="picture" class="img-responsive" data-toggle="modal" data-target="#myModal2">
+                                <img src="img/Background/sunset.jpg" alt="sunset picture" class="img-responsive" data-toggle="modal" data-target="#myModal2">
 
-                                <h4>Website music</h4>
-                                <p>Lorem ipsum dolor sit amet. </p>
+                                <h4>Website music download</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                             </div>
 
                             <!-- Modal -->
@@ -412,7 +410,7 @@
                                             <div class="container-fluid">
                                                 <div class="row">
                                                     <div class="col-md-4">
-                                                        <img src="img/Background/workspace.jpg" id="myImg" alt="Prestashop Colophon Records" class="img-responsive">
+                                                        <img src="img/Background/sunset.jpg" id="myImg" alt="Prestashop Colophon Records" class="img-responsive">
                                                         <!-- The Img Modal -->
                                                         <div id="myModalImg" class="modal-img">
                                                             <span class="close-img">×</span>
@@ -422,13 +420,13 @@
                                                     </div>
 
                                                     <div class="col-md-8">
-                                                        <h5>Missions : </h5>
+                                                        <h5>Tâches réalisées : </h5>
                                                         <br/>
-                                                        <p>- Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                        <p>1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                                         <br/>
-                                                        <p>- Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                        <p>2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                                         <br/>
-                                                        <p>- Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                                                        <p>3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                                                         
                                                         <br/>
                                                     </div>
@@ -443,9 +441,9 @@
 
                          <div class="ProjectContent col-xs-12 col-sm-4">
                             <div class="ProjectPortfolio">
-                                <img src="img/Background/wooddesk.jpg" alt="Sophie Marchand, Portfolio développeuse web" class="img-responsive" data-toggle="modal" data-target="#myModal1">
+                                <img src="img/Background/lotus.jpg" alt="Sophie Marchand, Portfolio développeuse web" class="img-responsive" data-toggle="modal" data-target="#myModal1">
                                 <h4>Portfolio</h4>
-                                <p>Lorem ipsum dolor sit amet.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
 
                             <!-- Modal -->
@@ -457,24 +455,26 @@
                                         <div class="modal-header">
                                             <button type="button" class="close" data-dismiss="modal"><span class="fa fa-times" aria-hidden="true"></span></button>
                                             <h4 class="modal-title">Portfolio</h4>
+                                            <h5>Personal portfolio</h5>
                                         </div>
                                         <div class="modal-body">
                                             <div class="container-fluid">
                                                 <div class="row">
                                                     <div class="col-md-4">
-                                                        <img src="img/Background/wooddesk.jpg" alt="Portfolio Header" class="img-responsive">
+                                                        <img src="img/Background/lotus.jpg" alt="Portfolio Header" class="img-responsive">
                                                        
                                                     </div>
 
                                                     <div class="col-md-8">
-                                                        <h5>Tasks :</h5>
-                                                        <p>- Donec mauris neque, malesuada in elit nec, imperdiet iaculis nisi.</p>
+                                                        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h5>
                                                         <br/>
-                                                        <p>-  Sed sit amet lorem non nibh ultrices feugiat.</p>
+                                                        <p>1. Donec mauris neque, malesuada in elit nec, imperdiet iaculis nisi.</p>
                                                         <br/>
-                                                        <p>- Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                        <p>2.  Sed sit amet lorem non nibh ultrices feugiat.</p>
                                                         <br/>
-                                                        <p>- Lorem ipsum dolor sit amet, consectetur adipiscing elit./p>
+                                                        <p>3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                        <br/>
+                                                        <p>4. Lorem ipsum dolor sit amet, consectetur adipiscing elit./p>
                                                         <br/>
                                                         
                                                     </div>
@@ -518,20 +518,20 @@
                     <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row control-group">
                             <div class="form-group col-xs-10 col-md-5 floating-label-form-group controls">
-                                <label>Your name</label>
+                                <label>Votre nom</label>
                                 <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
                                 <p class="help-block text-danger"></p>
                             </div>
 
                             <div class="form-group col-xs-10 col-md-5 floating-label-form-group controls">
-                                <label>Your Email</label>
+                                <label>Votre Email</label>
                                 <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-10 floating-label-form-group controls">
-                                <label>Your message</label>
+                                <label>Votre message</label>
                                 <textarea rows="5" class="form-control" id="message" required data-validation-required-message="Please enter a message."></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
@@ -540,7 +540,7 @@
                         <div id="success"></div>
                         <div class="row">
                             <div class="form-group col-xs-10 SendButton">
-                                <button type="submit" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-send" aria-hidden="true"></span> Send</button>
+                                <button type="submit" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-send" aria-hidden="true"></span> Envoyer</button>
                             </div>
                         </div>
                     </form>
@@ -549,10 +549,10 @@
             </div>
         </section>
         <!-- End Contact Section -->
-    </main>
+
         <script>
             function openNav() {
-                document.getElementById("SmartNav").style.width = "96%";
+                document.getElementById("SmartNav").style.width = "80%";
             }
 
             function closeNav() {

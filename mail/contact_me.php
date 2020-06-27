@@ -15,8 +15,8 @@ $email_address = strip_tags(htmlspecialchars($_POST['email']));
 $phone = strip_tags(htmlspecialchars($_POST['phone']));
 $message = strip_tags(htmlspecialchars($_POST['message']));
 	
-// Create the email and send the message
-$to = 's.marchand56@gmail.com'; 
+// REPLACE $to with your email - Create the email and send the message
+$to = 'youremail@gmail.com'; 
 $email_subject = "Contact Portfolio:  $name";
 $email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
 $headers = "From: noreply@gmail.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
