@@ -245,7 +245,7 @@ a:hover {
 header {
     height: 850px;
     color: #fff;
-    background: url(../img/Background/nbkeyboard.jpg) center no-repeat;
+    background: url(../img/nbkeyboard.jpg) center no-repeat;
     background-size: cover
 }
 .intro-header {
@@ -628,8 +628,8 @@ header {
 }
 .AboutLeft {
     height: 540px;
-    background: url(../img/Background/nbkeyboard.jpg) left no-repeat fixed;
-    background-size: contain
+    background: url(../img/nbkeyboard.jpg) left no-repeat;
+    background-size: cover
 }
 .AboutRight {
     background-color: #EBEBEB;
@@ -680,13 +680,8 @@ header {
     text-align: left;
     margin-left: 5%
 }
-.OtherSkills {
-    height: 540px;
-    background-color: #EBEBEB;
-    z-index: 2
-}
 .Skills {
-    background: url(../img/Background/nbkeyboard.jpg) top no-repeat;
+    background: url(../img/nbkeyboard.jpg) top no-repeat;
     background-size: cover;
     left: 0;
     right: 0;
@@ -732,7 +727,7 @@ span.bold {
     right: 0;
     z-index: 2;
     width: 88%;
-    margin-left: 6%;
+    margin-left: 10%;
     padding-left: 10%
 }
 .SkillBlock h5 {
@@ -868,7 +863,7 @@ h4.cv {
     color: #fff
 }
 .timeline ul {
-    background: url(../img/Background/nbkeyboard.jpg) bottom no-repeat fixed;
+    background: url(../img/nbkeyboard.jpg) bottom no-repeat fixed;
     background-size: cover;
     padding-bottom: 3%;
     margin-bottom: 0!important
@@ -1173,7 +1168,7 @@ h5 a.ProjectLink {
     padding-top: 38%
 }
 .FormContact {
-    background: url(../img/Background/nbkeyboard.jpg) bottom;
+    background: url(../img/nbkeyboard.jpg) bottom;
     background-size: cover;
     height: 540px
 }
@@ -1190,7 +1185,7 @@ h5 a.ProjectLink {
     padding-top: 8%
 }
 .OtherContact {
-    background: url(../img/Background/nbkeyboard.jpg) top no-repeat;
+    background: url(../img/nbkeyboard.jpg) top no-repeat;
     background-size: cover;
     height: 540px
 }
@@ -1357,9 +1352,6 @@ label {
         font-size: 1em;
         margin: 0 5.5%
     }
-    .Skills {
-        height: 1080px
-    }
     .OtherBlock {
         margin-left: 0;
         height: 450px
@@ -1382,7 +1374,7 @@ label {
         font-size: 1.2em
     }
     .ProjectPart {
-        height: 400px
+        height: auto;
     }
     #contactForm {
         margin-top: 0;
@@ -1403,6 +1395,14 @@ label {
     }
     .timeline ul {
         background: #EEE8D2
+    }
+    .AboutText {
+        margin: auto;
+    }
+    #contactForm {
+        width: 95%;
+        margin-left: 6%;
+        margin-right: auto;
     }
 }
 @media (min-width: 640px) and (max-width: 767px) {
@@ -1429,7 +1429,7 @@ label {
     }
     .AboutText {
         font-size: 1.3em;
-        line-height: 140%
+        line-height: 140%;
     }
     .SpaceLight {
         height: 100px
@@ -1437,8 +1437,10 @@ label {
     .SpaceRight h3.AboutTitle,
     .SpaceRight h3.SkillsTitle {
         text-align: center;
-        margin-left: 0
+        margin-left: 0;
+        color: #EBEBEB;
     }
+
     #Portfolio-About h3,
     #Portfolio-Contact h3,
     #Portfolio-Project h3,
@@ -1507,13 +1509,7 @@ label {
     }
 }
 @media (min-width: 426px) and (max-width: 640px) {
-    header {
-        max-height: 640px
-    }
-    .intro-header {
-        margin-top: 200px;
-        border: none
-    }
+
     .cd-headline {
         font-size: 2.5rem
     }
@@ -1524,12 +1520,7 @@ label {
         font-size: 1.5em;
         font-weight: 700
     }
-    .AboutRight {
-        height: 600px
-    }
-    .SpaceLight {
-        height: 100px
-    }
+ 
     #Portfolio-Contact h3 {
         font-size: 2em
     }
@@ -1537,30 +1528,12 @@ label {
         font-size: 1em;
         text-align: justify
     }
-    .Skills {
-        background: url(../img/Background/nbkeyboard.jpg) center no-repeat;
-        background-size: cover;
-        display: block;
-        left: 0;
-        right: 0;
-        height: 1080px;
-        position: absolute;
-        filter: blur(3px);
-        -webkit-filter: blur(3px);
-        z-index: 1;
-        padding: 0;
-        opacity: .8
-    }
     .level {
         margin: 5% 3% -2%;
         font-size: .9em
     }
     .devskills {
         margin-top: 15%
-    }
-    .OtherSkills {
-        margin-top: 1%;
-        margin-left: -8%
     }
     .OtherBlock {
         height: 450px
@@ -1611,7 +1584,8 @@ label {
     .SpaceRight h3.AboutTitle,
     .SpaceRight h3.SkillsTitle {
         text-align: center;
-        margin-left: 0
+        margin-left: 0;
+        color: #EBEBEB;
     }
     #Portfolio-About h3,
     #Portfolio-Contact h3,
@@ -1645,7 +1619,7 @@ label {
         font-size: .9em
     }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 640px) {
     header {
         max-height: 600px
     }
@@ -1673,8 +1647,11 @@ label {
         font-size: 1em;
         text-align: justify
     }
+    .ProjectPart {
+        height: auto;
+    }
     .SKills {
-        height: 1000px
+        height: auto;
     }
     .level {
         margin: 5% 0 -2%;
@@ -1683,16 +1660,12 @@ label {
     .devskills {
         margin-top: 15%
     }
-    .OtherSkills {
-        margin-top: 1%;
-        margin-left: -8%
-    }
     .OtherBlock h5 {
         line-height: 130%;
         font-size: 1em
     }
     .SkillBlock {
-        height: 500px;
+        height: 450px;
         width: 95%;
         margin-left: 2%
     }
@@ -1743,9 +1716,7 @@ label {
         line-height: 120%;
         font-size: .9em
     }
-}
-@media screen and (max-width: 378px) {
-    .AboutText,
+      .AboutText,
     .devJunior {
         line-height: 150%
     }
@@ -1757,24 +1728,13 @@ label {
         font-size: 1.2em
     }
     .AboutRight {
-        height: 700px
+        height: 550px
     }
     .OtherBlock {
         margin-left: 8%
     }
     .Skills {
-        background: url(../img/Background/nbkeyboard.jpg) center no-repeat;
-        background-size: cover;
-        display: block;
-        left: 0;
-        right: 0;
-        height: 1080px;
-        position: absolute;
-        filter: blur(3px);
-        -webkit-filter: blur(3px);
-        z-index: 1;
-        padding: 0;
-        opacity: .8
+        height: 550px;
     }
     .Skills ul li {
         font-size: .7em;
@@ -1797,7 +1757,8 @@ label {
         padding-top: 8%;
         font-size: 2em;
         text-align: center;
-        margin-left: 0
+        margin-left: 0;
+        color: #EBEBEB;
     }
     .SpaceLight {
         height: 80px;
@@ -1806,10 +1767,12 @@ label {
     .FormContact {
         height: 500px
     }
-    #contactForm {
-        margin-left: 5%
-    }
     label {
         font-size: 1em
+    }
+    #contactForm {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

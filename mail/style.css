@@ -315,7 +315,7 @@ header {
     height: 850px;
     text-align: center;
     color: #fff;
-    background: url('img/Background/sunset.jpg') no-repeat center fixed;
+    background: url('img/sunset.jpg') no-repeat center fixed;
     background-size: cover;
 }
 
@@ -766,7 +766,7 @@ xpush
 
 .AboutLeft {
     height: 540px;
-    background: url('img/Background/sophie.marchand.bulles.jpg') no-repeat left fixed;
+    background: url('img/sophie.marchand.bulles.jpg') no-repeat left fixed;
     background-size: contain;
 }
 
@@ -840,7 +840,7 @@ xpush
 }
 
 .Skills {
-    background: url('img/Background/carnet.jpg') no-repeat center fixed;
+    background: url('img/carnet.jpg') no-repeat center fixed;
     background-size: cover;
     display: block;
     left: 0;
@@ -1061,7 +1061,7 @@ h4.cv {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .timeline ul {
-    background: url('img/Background/bretagne01.jpg') no-repeat center fixed;
+    background: url('img/bretagne01.jpg') no-repeat center fixed;
     background-size: cover;
     padding-bottom: 3%;
     margin-bottom: 0 !important;
@@ -1483,7 +1483,7 @@ h5 a.ProjectLink {
 }
 
 .FormContact {
-    background: url('img/Background/sunset.jpg') no-repeat center fixed;
+    background: url('img/sunset.jpg') no-repeat center fixed;
     background-size: cover;
     height: 540px;
 }
@@ -1502,7 +1502,7 @@ h5 a.ProjectLink {
 }
 
 .OtherContact {
-    background: url('img/Background/sunset.jpg') no-repeat center fixed;
+    background: url('img/sunset.jpg') no-repeat center fixed;
     background-size: cover;
     height: 540px;
 }
@@ -1915,7 +1915,7 @@ label {
         text-align: justify;
     }
     .Skills {
-        background: url('img/Background/carnet.jpg') no-repeat center fixed;
+        background: url('img/carnet.jpg') no-repeat center fixed;
         background-size: cover;
         display: block;
         left: 0;
@@ -2159,7 +2159,7 @@ label {
 	}
 
     .Skills {
-        background: url('img/Background/carnet.jpg') no-repeat center fixed;
+        background: url('img/carnet.jpg') no-repeat center fixed;
         background-size: cover;
         display: block;
         left: 0;
