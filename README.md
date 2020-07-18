@@ -1,12 +1,13 @@
 
 # Bootstrap portfolio with parallax - 2016
 
+![Portfolio](/img/Screenshot_bootstrap_portfolio.png)
+
 ### Table Of Contents
 * [Introduction](#intro)
 * [Links](#links)
 * [Installation](#setup)
 * [To do](#todo)
-
 
 ## Introduction<a name="intro"></a>
 
