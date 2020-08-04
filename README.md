@@ -28,6 +28,7 @@ Clone the repository or download the zip file.
 ## To do<a name="todo"></a>
 
 - [ ] A big cleaning in the CSS file should be done!
+- [ ] Fix issue with menu z-index on mobile
 
 ## Author
 
