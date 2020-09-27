@@ -1,12 +1,13 @@
 
 # Bootstrap portfolio with parallax - 2016
 
+![Portfolio](/img/Screenshot_bootstrap_portfolio.png)
+
 ### Table Of Contents
 * [Introduction](#intro)
 * [Links](#links)
 * [Installation](#setup)
 * [To do](#todo)
-
 
 ## Introduction<a name="intro"></a>
 
@@ -27,6 +28,7 @@ Clone the repository or download the zip file.
 ## To do<a name="todo"></a>
 
 - [ ] A big cleaning in the CSS file should be done!
+- [ ] Fix issue with menu z-index on mobile
 
 ## Author
 
